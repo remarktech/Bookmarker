@@ -2,7 +2,7 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: white;
+    background: skyblue;
   }
   
   /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -14,7 +14,7 @@ body {
   }
 
   .form-control {
-    border: 2px solid black;
+    border: 2px solid rgb(19, 165, 223);
     padding: 25px;
   }
   
@@ -27,7 +27,7 @@ body {
   /* Custom page header */
   .header {
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
   /* Make the masthead heading the same height as the navigation */
   .header h3 {
