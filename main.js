@@ -77,9 +77,9 @@ function fetchBookmarks(){
         var name = bookmarks[i].name;
         var url = bookmarks[i].url;
 
-        bookmarksResults.innerHTML += '<div class="well" style="color:black;">'+
-                                       '<h3>'+name.toUpperCase()+
-                                       ' <a class="btn btn-info" target="_blank" href="'+url+'">Visit</a>' + 
+        bookmarksResults.innerHTML += '<div class="well" style="color:brown;">'+
+                                       '<h3>'+name.toUpperCase()+'&nbsp;'+(url.toLowerCase())+
+                                       ' <a class="btn btn-success" target="_blank" href="'+url+'">Visit</a>' + 
                                        ' <a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger" href="#">Delete</a>' + 
                                        '</h3>'+
                                        '</div>';
